@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<link rel="icon" href="%sveltekit.assets%/favicon.png" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	%sveltekit.head%
+</head>
+
+<body data-sveltekit-preload-data="hover"
+	class="w-screen min-h-screen bg-[url('/bg_mobile.png')] bg-no-repeat bg-center bg-cover z-10 md:bg-[url('/bg_laptop.png')]">
+		<div class="bg-[#00000096] z-20 min-h-screen w-screen backdrop-blur-[54px] ">
+			<div style="display: contents">
+				%sveltekit.body%
+			</div>
+		</div>
+</body>
+
+</html>
